@@ -11,6 +11,8 @@ public class Main {
         System.out.println(Math.min(6, 10));
         System.out.println(Math.round(2.2));
 
+        // -----------------------------------------------------------
+
         // if statement
         int age = 17;
         if (age >= 18) {
@@ -21,6 +23,7 @@ public class Main {
             System.out.println("no adult");
         }
 
+        // -----------------------------------------------------------
 
         // Switch statement
         String gender = "FEMALE";
@@ -36,6 +39,7 @@ public class Main {
                 break;
         }
 
+        // -----------------------------------------------------------
 
         // Arrays
         // a int array
@@ -60,6 +64,25 @@ public class Main {
         // fast way to pass values to the array using curly brackets
         int[] box = {1, 2, 3};
         System.out.println(Arrays.toString(box));
+
+        // -----------------------------------------------------------
+
+        // -- && ++ 
+        int a = 0;
+        a ++;
+        System.out.println(a); // 1
+
+        // increase after substitution
+        int b = a ++; 
+        System.out.println(b); // 1 
+        System.out.println(a); // 2
+
+        // increase before substitution
+        int c = ++ a;
+        System.out.println(c); // 3
+        System.out.println(a); // 2
+
+   
 
     }
 }
