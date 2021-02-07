@@ -82,7 +82,25 @@ public class Main {
         System.out.println(c); // 3
         System.out.println(a); // 2
 
-   
+         // -----------------------------------------------------------
+        
+         // for loop
+         /* syntax
+         for (initial_value; condition_judgement; what_to_to_after_one_run) {
+             some_action;
+         }
+         */
+
+         // normal use (the printout will be 0 to 9)
+         for (int x = 0; x < 10; x++) {
+             System.out.println(x);
+         }
+
+         // how to loop elements in Array (this will printout all the elements of the member array)
+         String[] members = {"Maria", "Jack", "Steve"};
+         for (String memeber: members) {
+             System.out.println(memeber);
+         }
 
     }
 }
