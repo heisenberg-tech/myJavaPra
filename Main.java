@@ -1,6 +1,7 @@
 package mydev;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -137,5 +138,20 @@ public class Main {
          do {
             System.out.println("The first time will be conducted even if the condition is not satisfield");
          } while (y > 0);
+
+
+        // -----------------------------------------------------------
+        //take user's input from console using Scanner
+        // make a scanner
+        Scanner scanner = new Scanner(System.in);
+        // ask user to give name
+        System.out.println("Hi! What is your name?");
+        // console will wait for the user to input username
+        // after the name given, substitution will be performed.
+        String username = scanner.nextLine();
+        // Say hello to the user
+        System.out.println("hello " + username + ", welcome to my world!");
+        
+
     }
 }
