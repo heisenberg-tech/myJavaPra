@@ -132,5 +132,10 @@ public class Main {
              times ++;
          }
 
+         // do while statement
+         int y = 0;
+         do {
+            System.out.println("The first time will be conducted even if the condition is not satisfield");
+         } while (y > 0);
     }
 }
