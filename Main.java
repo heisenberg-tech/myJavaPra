@@ -152,6 +152,18 @@ public class Main {
         // Say hello to the user
         System.out.println("hello " + username + ", welcome to my world!");
         
+        // -----------------------------------------------------------
+        // user defined method use
+        int countO = countOccurences();
+        System.out.println(countO);
+    }
 
+    /* user-defined method
+    public --- means this method can be accessd by any class
+    static --- means this method belongs to a class
+    int (ex) --- return type of this method
+    */
+    public static int countOccurences() {
+        return 0;
     }
 }
