@@ -1,4 +1,4 @@
-package mydev;
+package base_syntax.mydev;
 
 import java.util.Arrays;
 import java.util.Scanner;
