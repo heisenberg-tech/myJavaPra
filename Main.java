@@ -117,5 +117,20 @@ public class Main {
              }
              System.out.println(memeber__);
          }
+
+         // -----------------------------------------------------------
+
+         // while loop
+         // the case below will cause a endless loop for no stop condition given.
+        //  while (true) {
+        //      System.out.println("hi!");
+        //  }
+         // a normal case
+         int times = 1;
+         while (times <= 20) {
+             System.out.println(times + " runs");
+             times ++;
+         }
+
     }
 }
