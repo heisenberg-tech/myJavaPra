@@ -102,5 +102,20 @@ public class Main {
              System.out.println(memeber);
          }
 
+         // introduction of break and continue 
+            //(this will only printout "Maria")
+         for (String memeber_: members) {
+             if (memeber_.equals("Jack")) {
+                break;
+             }
+             System.out.println(memeber_);
+         }
+            //this will skip "Jack" only
+         for (String memeber__: members) {
+            if (memeber__.equals("Jack")) {
+                continue;
+             }
+             System.out.println(memeber__);
+         }
     }
 }
